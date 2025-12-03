@@ -1,0 +1,419 @@
+.campaign-intelligence {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intelligence-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.intelligence-header h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.intelligence-header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.intelligence-input {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intelligence-input input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.intelligence-input input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.intelligence-input button {
+  padding: 0.75rem 2rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 180px;
+}
+
+.intelligence-input button:hover:not(:disabled) {
+  background: #5568d3;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.intelligence-input button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.intelligence-input button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.error-message {
+  padding: 1rem;
+  background: #fee;
+  color: #c33;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.intelligence-results {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.result-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #667eea;
+}
+
+.score-overall {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.score-value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.score-bar {
+  flex: 1;
+  height: 20px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.score-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s;
+}
+
+.dimension-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dimension-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dimension-name {
+  min-width: 150px;
+  text-transform: capitalize;
+  color: #666;
+}
+
+.dimension-bar {
+  flex: 1;
+  height: 12px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.dimension-fill {
+  height: 100%;
+  background: #667eea;
+  transition: width 0.3s;
+}
+
+.dimension-value {
+  min-width: 50px;
+  text-align: right;
+  font-weight: 600;
+  color: #333;
+}
+
+.improvements {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.improvements h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.improvements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.improvements li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.improvements li:before {
+  content: '💡';
+  position: absolute;
+  left: 0;
+}
+
+.prediction-main {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.prediction-probability {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  min-width: 200px;
+}
+
+.prob-value {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.prob-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-top: 0.5rem;
+}
+
+.prediction-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.prediction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background: #f8f8f8;
+  border-radius: 6px;
+}
+
+.pred-label {
+  color: #666;
+}
+
+.pred-value {
+  font-weight: 600;
+  color: #333;
+}
+
+.confidence-high {
+  color: #4caf50;
+}
+
+.confidence-medium {
+  color: #ff9800;
+}
+
+.confidence-low {
+  color: #f44336;
+}
+
+.prediction-factors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.factors-section h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.factors-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.factors-section li {
+  padding: 0.5rem 0;
+  color: #666;
+}
+
+.similar-campaigns-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.similar-campaign {
+  padding: 1.5rem;
+  background: #f8f8f8;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.similar-campaign h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.campaign-metrics {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.campaign-metrics span {
+  padding: 0.25rem 0.75rem;
+  background: white;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.what-worked h5 {
+  color: #333;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.what-worked ul {
+  list-style: none;
+  padding: 0;
+}
+
+.what-worked li {
+  padding: 0.25rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #666;
+}
+
+.what-worked li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.strategy-channels,
+.strategy-timing,
+.strategy-messaging {
+  margin-bottom: 2rem;
+}
+
+.strategy-channels h4,
+.strategy-timing h4,
+.strategy-messaging h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.channels-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.channel-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #f8f8f8;
+  border-radius: 6px;
+}
+
+.channel-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.channel-reach {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.strategy-timing ul {
+  list-style: none;
+  padding: 0;
+}
+
+.strategy-timing li {
+  padding: 0.75rem;
+  background: #f8f8f8;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.message-variant {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f8f8f8;
+  border-radius: 6px;
+}
+
+.message-variant strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.message-variant p {
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .prediction-main {
+    flex-direction: column;
+  }
+  
+  .prediction-factors {
+    grid-template-columns: 1fr;
+  }
+}
+

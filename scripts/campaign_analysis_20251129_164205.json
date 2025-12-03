@@ -1,0 +1,90 @@
+{
+  "analyzed_at": "2025-11-29T16:42:05.025392",
+  "campaigns": [
+    {
+      "campaign_id": "1oj1rds26o",
+      "title": "Support Local Community Garden Initiative",
+      "description": "Join us in creating a sustainable community garden that provides fresh produce and a green space for our neighborhood. Your contributions will help us purchase seeds, tools, and materials needed to establish this vital resource.",
+      "category": "community",
+      "goal_amount": 8000.0,
+      "raised_amount": 0.0,
+      "donor_count": 0,
+      "location": "Springfield, IL",
+      "organizer_name": "Emily Johnson",
+      "url": "https://www.gofundme.com/f/1oj1rds26o",
+      "created_at": "2025-11-29T16:38:27.480249",
+      "updates": []
+    }
+  ],
+  "donation_history": [],
+  "recurring_opportunities": [
+    {
+      "opportunity_id": "opp_1oj1rds26o",
+      "campaign_id": "1oj1rds26o",
+      "campaign_title": "Support Local Community Garden Initiative",
+      "suitability": "highly_suitable",
+      "suitability_score": 0.75,
+      "suitability_reasons": [
+        "The community garden initiative requires ongoing maintenance and resources, such as seeds and tools, which can benefit from sustained funding.",
+        "Recurring donations can help build a reliable budget for the garden's development and upkeep, ensuring that it continues to thrive and serve the community.",
+        "Community campaigns often benefit from recurring support"
+      ],
+      "recommended_frequency": "monthly",
+      "recommended_amount": 15,
+      "impact_per_period": "Your $15/month supports the maintenance of 1,500 square feet of community garden space, providing fresh produce for local families and reducing food insecurity.",
+      "pitch": "Join us in nurturing our local community by committing just $15 a month to support our Community Garden Initiative. Your monthly gift will help maintain 1,500 square feet of vibrant garden space, ensuring that fresh produce reaches families in need and fostering a stronger, healthier community. Together, we can cultivate lasting change and grow hope, one month at a time\u2014because every little bit helps, and your partnership makes all the difference.",
+      "impact_story": ""
+    },
+    {
+      "opportunity_id": "opp_similar_-6250361642723851168",
+      "campaign_id": "similar_-6250361642723851168",
+      "campaign_title": "Urban Composting Initiative",
+      "suitability": "highly_suitable",
+      "suitability_score": 0.7,
+      "suitability_reasons": [
+        "The Urban Composting Initiative aims to create a sustainable community program that requires ongoing support for maintenance and education.",
+        "Recurring donations can help establish a reliable funding source for continuous workshops and the replenishment of composting bins and tools.",
+        "Environment campaigns often benefit from recurring support"
+      ],
+      "recommended_frequency": "monthly",
+      "recommended_amount": 15,
+      "impact_per_period": "Your $15 this month helps divert 1,000 pounds of organic waste from landfills, reducing greenhouse gas emissions and creating nutrient-rich compost for local gardens.",
+      "pitch": "Join us in transforming our urban environment with the Urban Composting Initiative. By committing just $15 a month, your support will help divert 1,000 pounds of organic waste from landfills each month, turning it into nutrient-rich compost that nourishes local gardens and reduces greenhouse gas emissions. Together, we can create a greener future\u2014one small step at a time\u2014making your commitment not just achievable, but impactful.",
+      "impact_story": ""
+    },
+    {
+      "opportunity_id": "opp_similar_2675355696444366458",
+      "campaign_id": "similar_2675355696444366458",
+      "campaign_title": "Neighborhood Farmers' Market",
+      "suitability": "highly_suitable",
+      "suitability_score": 0.7,
+      "suitability_reasons": [
+        "The farmers' market will require ongoing funding for permits, marketing, and vendor fees, which can be supported through recurring donations.",
+        "Recurring support can help build a sustainable model for the market, allowing it to grow and adapt to community needs over time.",
+        "Community campaigns often benefit from recurring support"
+      ],
+      "recommended_frequency": "monthly",
+      "recommended_amount": 15,
+      "impact_per_period": "Your $15 monthly contribution helps fund the purchase of fresh produce from local farms, providing 30 families with healthy fruits and vegetables for a week.",
+      "pitch": "Imagine the joy of a family receiving a box filled with fresh fruits and vegetables, knowing that your support is making this possible. By committing to just $15 a month, you become an essential partner in nourishing our community, ensuring that 30 families can enjoy healthy meals each week. Together, we can create a lasting impact, transforming lives one harvest at a time.",
+      "impact_story": ""
+    },
+    {
+      "opportunity_id": "opp_similar_2001011856560934575",
+      "campaign_id": "similar_2001011856560934575",
+      "campaign_title": "Community Tree Planting Day",
+      "suitability": "suitable",
+      "suitability_score": 0.5,
+      "suitability_reasons": [
+        "Environment campaigns often benefit from recurring support",
+        "Still needs funding (0% of goal)"
+      ],
+      "recommended_frequency": "monthly",
+      "recommended_amount": 15,
+      "impact_per_period": "Your $15 contribution each month plants 3 trees, helping to absorb 180 pounds of carbon dioxide and providing homes for local wildlife.",
+      "pitch": "Imagine the joy of watching your contribution grow into a lush canopy of trees that not only beautifies our community but also plays a vital role in combating climate change and supporting local wildlife. By committing just $15 a month, you\u2019re not just donating\u2014you\u2019re partnering with us to plant 3 trees each month, absorbing 180 pounds of carbon dioxide and nurturing our planet for future generations. Together, we can create a greener, healthier world, one tree at a time\u2014an achievable goal that brings lasting impact to our community and beyond.",
+      "impact_story": ""
+    }
+  ],
+  "opportunities_count": 4
+}

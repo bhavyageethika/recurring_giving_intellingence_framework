@@ -1,0 +1,144 @@
+{
+  "workflow_state": {
+    "donor_id": "donor_real_demo",
+    "donations": [
+      {
+        "campaign_id": "campaign_1764466329.413455",
+        "campaign_title": "Help Sarah Fight Cancer - Medical Treatment Fund",
+        "campaign_category": "medical",
+        "amount": 100.0,
+        "timestamp": "2025-11-30T01:32:09.414460"
+      },
+      {
+        "campaign_id": "campaign_2",
+        "campaign_title": "Local Food Bank Drive",
+        "campaign_category": "community",
+        "amount": 50.0,
+        "timestamp": "2025-11-01T01:32:09.414460"
+      },
+      {
+        "campaign_id": "campaign_3",
+        "campaign_title": "Children's Hospital Fund",
+        "campaign_category": "medical",
+        "amount": 75.0,
+        "timestamp": "2025-11-15T01:32:09.414460"
+      }
+    ],
+    "campaigns": [
+      {
+        "campaign_id": "campaign_1764466329.413455",
+        "title": "Help Sarah Fight Cancer - Medical Treatment Fund",
+        "description": "Sarah is a 32-year-old mother of two who was recently diagnosed with stage 3 breast cancer. She needs funds for chemotherapy, surgery, and ongoing treatment. Her family is struggling to cover medical costs while she's unable to work.",
+        "category": "medical",
+        "goal_amount": 50000.0,
+        "raised_amount": 15000.0,
+        "donor_count": 45,
+        "organizer": {
+          "name": "Sarah's Family",
+          "verified": true,
+          "campaign_count": 1
+        },
+        "updates": [
+          {
+            "date": "2024-11-15",
+            "text": "Started first round of chemotherapy"
+          },
+          {
+            "date": "2024-11-22",
+            "text": "Thank you for all the support!"
+          }
+        ]
+      }
+    ],
+    "donor_metadata": {
+      "location": "San Francisco, CA",
+      "joined_date": "2025-11-30T01:32:09.414460",
+      "display_name": "Alex",
+      "email": "alex@example.com"
+    },
+    "donor_profile": {},
+    "campaign_analyses": [],
+    "community_insights": {},
+    "recurring_opportunities": [],
+    "giving_circle_suggestions": [],
+    "engagement_plan": {},
+    "current_step": "start",
+    "completed_steps": [],
+    "errors": [
+      {
+        "step": "workflow",
+        "error": "At key 'donor_id': Can receive only one value per step. Use an Annotated key to handle multiple values.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/INVALID_CONCURRENT_GRAPH_UPDATE"
+      }
+    ],
+    "agent_messages": [],
+    "workflow_id": "workflow_2025-11-30T01:32:09.414460",
+    "started_at": "2025-11-30T01:32:09.414460",
+    "completed_at": ""
+  },
+  "campaign": {
+    "campaign_id": "campaign_1764466329.413455",
+    "title": "Help Sarah Fight Cancer - Medical Treatment Fund",
+    "description": "Sarah is a 32-year-old mother of two who was recently diagnosed with stage 3 breast cancer. She needs funds for chemotherapy, surgery, and ongoing treatment. Her family is struggling to cover medical costs while she's unable to work.",
+    "category": "medical",
+    "goal_amount": 50000.0,
+    "raised_amount": 15000.0,
+    "donor_count": 45,
+    "organizer": {
+      "name": "Sarah's Family",
+      "verified": true,
+      "campaign_count": 1
+    },
+    "updates": [
+      {
+        "date": "2024-11-15",
+        "text": "Started first round of chemotherapy"
+      },
+      {
+        "date": "2024-11-22",
+        "text": "Thank you for all the support!"
+      }
+    ]
+  },
+  "donor_metadata": {
+    "location": "San Francisco, CA",
+    "joined_date": "2025-11-30T01:32:09.414460",
+    "display_name": "Alex",
+    "email": "alex@example.com"
+  },
+  "donations": [
+    {
+      "campaign_id": "campaign_1764466329.413455",
+      "campaign_title": "Help Sarah Fight Cancer - Medical Treatment Fund",
+      "campaign_category": "medical",
+      "amount": 100.0,
+      "timestamp": "2025-11-30T01:32:09.414460"
+    },
+    {
+      "campaign_id": "campaign_2",
+      "campaign_title": "Local Food Bank Drive",
+      "campaign_category": "community",
+      "amount": 50.0,
+      "timestamp": "2025-11-01T01:32:09.414460"
+    },
+    {
+      "campaign_id": "campaign_3",
+      "campaign_title": "Children's Hospital Fund",
+      "campaign_category": "medical",
+      "amount": 75.0,
+      "timestamp": "2025-11-15T01:32:09.414460"
+    }
+  ],
+  "mcp_emails": [
+    {
+      "to": "alex@example.com",
+      "cc": [],
+      "bcc": [],
+      "subject": "Alex, your kindness means everything to Sarah \ud83d\udc99",
+      "body": "Dear Alex,\n\nYour generous $100 donation to Help Sarah Fight Cancer has touched our hearts deeply. Knowing that compassionate people like you in San Francisco are standing with Sarah during her medical journey gives her and her family incredible strength and hope. Your gift will go directly toward her treatment costs, helping to ease the financial burden so she can focus entirely on healing. We're so grateful for your continued support of medical causes that truly change lives.\n\nWith heartfelt appreciation,\n\n[Your Name]\n[Organization Name]\nThe Giving Intelligence Team",
+      "body_type": "text",
+      "attachments": [],
+      "sent_at": "2025-11-30T01:36:19.632423"
+    }
+  ],
+  "timestamp": "2025-11-30T01:36:19.633423"
+}

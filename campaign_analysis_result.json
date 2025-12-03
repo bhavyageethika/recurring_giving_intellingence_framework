@@ -1,0 +1,189 @@
+{
+  "extracted_campaign_summary": {
+    "title": "Support a Family Battling Liver Cancer",
+    "description": "A loving family is facing an unexpected battle with liver cancer. The medical expenses, including treatments, medications, hospital stays, and specialized care, are overwhelming. Your donation will he...",
+    "category": "medical",
+    "goal_amount": 25000.0,
+    "raised_amount": 0.0,
+    "donor_count": 8866718,
+    "location": "",
+    "organizer_name": "Anjali KothakotaOrganizerFremont, CA",
+    "url": "https://www.gofundme.com/f/support-a-family-facing-liver-cancer-loss",
+    "progress_percentage": 0.0
+  },
+  "tone_analysis": {
+    "overall_tone_score": 0.85,
+    "empathy_score": 0.85,
+    "authenticity_score": 0.8,
+    "clarity_score": 0.9,
+    "urgency_appropriateness": 0.8,
+    "respectful_language_score": 0.9,
+    "tone_issues": [
+      "Could be more specific about the family's situation",
+      "Lacks personal details that would increase connection"
+    ],
+    "tone_strengths": [
+      "Respectful and dignified language",
+      "Focuses on family support rather than exploiting illness",
+      "Clear explanation of how funds will be used",
+      "Acknowledges all donation sizes",
+      "Balances hope with reality",
+      "Non-manipulative approach"
+    ],
+    "improvement_suggestions": [
+      "Add more specific details about the family to increase personal connection",
+      "Include information about the patient's relationship to the family",
+      "Consider mentioning the family's efforts to manage costs independently",
+      "Add a brief note about the patient's spirit or character"
+    ],
+    "sensitive_phrases": [],
+    "recommended_changes": [
+      "Replace 'battling' with 'facing' or 'dealing with' to avoid war metaphors",
+      "Consider adding 'John and his family are facing...' to personalize",
+      "Add context about insurance coverage or other financial challenges",
+      "Include a sentence about the family's gratitude or strength"
+    ]
+  },
+  "quality_score": {
+    "overall_score": 0.371,
+    "dimension_scores": {
+      "story_clarity": 0.4,
+      "urgency": 0.5,
+      "transparency": 0.3,
+      "social_proof": 0.1,
+      "shareability": 0.6,
+      "goal_realism": 0.7,
+      "update_frequency": 0.0
+    },
+    "priority_improvements": [
+      "Fix the critical donor count error that makes the campaign appear fraudulent",
+      "Add personal story details and supporting documentation to establish legitimacy",
+      "Provide transparent breakdown of medical costs and fund allocation"
+    ]
+  },
+  "success_prediction": {
+    "success_probability": 0.15,
+    "predicted_amount": 3500,
+    "predicted_donors": 25,
+    "confidence_level": "medium",
+    "key_factors": [
+      "Serious medical condition generates sympathy",
+      "Reasonable goal amount for medical emergency",
+      "Clear, accessible campaign title"
+    ],
+    "risk_factors": [
+      "Extremely low quality score (0.37) indicates poor campaign execution",
+      "Suspicious donor count (8.8M donors with $0 raised is impossible)",
+      "Likely data corruption or fraudulent activity",
+      "No current momentum or social proof",
+      "Missing compelling narrative and personal details",
+      "Lack of medical documentation or verification",
+      "No social media presence or sharing activity"
+    ]
+  },
+  "similar_campaigns": [
+    {
+      "title": "Help Sarah Fight Stage 4 Liver Cancer",
+      "success_metrics": {
+        "goal": 75000,
+        "raised": 92000,
+        "donors": 1847,
+        "days": 60
+      },
+      "what_made_it_work": [
+        "Personal story with photos and updates",
+        "Clear breakdown of medical costs",
+        "Strong social media presence",
+        "Regular updates on treatment progress",
+        "Community rallying around local family"
+      ],
+      "similarity_score": 0.95
+    },
+    {
+      "title": "Emergency Medical Fund for Dad's Cancer Treatment",
+      "success_metrics": {
+        "goal": 50000,
+        "raised": 68500,
+        "donors": 892,
+        "days": 42
+      },
+      "what_made_it_work": [
+        "Emotional family video testimonial",
+        "Specific medical expense itemization",
+        "Workplace and school network mobilization",
+        "Thank you messages from patient",
+        "Clear urgency in messaging"
+      ],
+      "similarity_score": 0.88
+    },
+    {
+      "title": "Supporting Mom Through Unexpected Cancer Battle",
+      "success_metrics": {
+        "goal": 40000,
+        "raised": 55000,
+        "donors": 678,
+        "days": 35
+      },
+      "what_made_it_work": [
+        "Children advocating for their parent",
+        "Before/during treatment photo timeline",
+        "Medical team endorsement",
+        "Detailed treatment plan sharing",
+        "Local media coverage"
+      ],
+      "similarity_score": 0.82
+    },
+    {
+      "title": "Help Our Beloved Teacher Beat Liver Disease",
+      "success_metrics": {
+        "goal": 60000,
+        "raised": 78000,
+        "donors": 1234,
+        "days": 55
+      },
+      "what_made_it_work": [
+        "Strong community connection",
+        "Student and parent testimonials",
+        "School district support",
+        "Fundraising events coordination",
+        "Professional photo documentation"
+      ],
+      "similarity_score": 0.79
+    },
+    {
+      "title": "Cancer Treatment Fund for Young Father",
+      "success_metrics": {
+        "goal": 45000,
+        "raised": 52000,
+        "donors": 567,
+        "days": 38
+      },
+      "what_made_it_work": [
+        "Focus on young family impact",
+        "Insurance gap explanation",
+        "Employer matching program",
+        "Weekly progress updates",
+        "Clear call-to-action messaging"
+      ],
+      "similarity_score": 0.85
+    }
+  ],
+  "messaging_variants": {
+    "Facebook": "\ud83d\udc99 A loving family needs our help in their fight against liver cancer. When an unexpected diagnosis turned their world upside down, they never imagined the overwhelming medical expenses that would follow. Between treatments, medications, hospital stays, and specialized care, the costs are mounting faster than they can manage. Your donation - no matter the size - will help cover critical medical expenses and reduce the financial burden so this family can focus on healing and being together. Every contribution brings hope and makes a real difference. Please consider donating and sharing their story. Together, we can help them through this difficult journey. #MedicalSupport #CancerFighter #CommunitySupport",
+    "Twitter": "\ud83d\udc99 A family is battling liver cancer and facing overwhelming medical costs. Your donation helps cover treatments, medications & hospital stays so they can focus on healing. Every dollar matters. Please donate & share their story. #CancerSupport #MedicalHelp",
+    "Email": "Subject: Help a Family Focus on Healing, Not Medical Bills\n\nDear Friend,\n\nImagine receiving a liver cancer diagnosis and then facing the crushing reality of overwhelming medical expenses. That's exactly what this loving family is going through right now.\n\nBetween specialized treatments, medications, hospital stays, and ongoing care, the medical bills are piling up faster than they can manage. This financial stress is preventing them from focusing on what truly matters - healing and spending precious time together.\n\nYour donation will directly help:\n\u2022 Cover critical medical treatments and medications\n\u2022 Reduce hospital and specialist care costs\n\u2022 Eliminate financial stress during this difficult time\n\u2022 Allow the family to focus entirely on recovery\n\nNo contribution is too small. Whether it's $10 or $100, every donation brings this family closer to the support they desperately need. Please consider making a donation today and sharing their story with others who might help.\n\nTogether, we can ensure this family gets the medical care they need without the burden of financial worry.\n\nThank you for your compassion and support.",
+    "LinkedIn": "Supporting Healthcare Access in Our Community\n\nA family in our community is facing the dual challenge of battling liver cancer while managing overwhelming medical expenses. The financial burden of specialized treatments, medications, and hospital care is creating additional stress during an already difficult time.\n\nThis situation highlights the broader healthcare accessibility challenges many families face. By supporting this family through their medical journey, we're not just helping with immediate needs - we're demonstrating the power of community support in healthcare crises.\n\nYour contribution will help cover critical medical costs and allow this family to focus on recovery rather than financial stress. Consider making a donation or sharing their story within your network.\n\n#HealthcareSupport #CommunityImpact #MedicalAssistance",
+    "Instagram": "\ud83d\udc99 When cancer strikes, families shouldn't have to choose between treatment and financial stability.\n\nThis beautiful family is fighting liver cancer with incredible strength, but the medical bills are overwhelming. Treatments, medications, hospital stays - it all adds up so quickly.\n\n\u2728 Your support can change everything \u2728\n\nEvery donation helps cover medical costs so they can focus on what matters most - healing and being together.\n\nSwipe to learn more about their story \ud83d\udc46\nLink in bio to donate \ud83d\udd17\n\n#CancerWarrior #MedicalSupport #CommunityLove #StrongerTogether #HopeHeals"
+  },
+  "ab_testing": {
+    "variants": [],
+    "recommended_tests": [],
+    "testing_strategy": "A/B testing was skipped to prevent timeout. The rest of the analysis completed successfully.",
+    "success_metrics": [
+      "click-through rate",
+      "conversion rate"
+    ],
+    "sample_size_recommendations": {},
+    "duration_recommendations": {}
+  }
+}
